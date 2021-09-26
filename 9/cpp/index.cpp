@@ -2,7 +2,6 @@
 #include <cstdint>
 
 int main(void) {
-	std::cout << "Hello World" << std::endl;
 	for(uint64_t a = 0; a < 1000; a += 1) {
 		for(uint64_t b = a + 1; b < 1000; b += 1) {
 			for(uint64_t c = b + 1; c < 1000; c += 1) {
