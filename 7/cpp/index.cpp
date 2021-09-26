@@ -11,11 +11,7 @@ bool isPrime(uint64_t number) {
 		return true;
 	}
 
-	if(number % 2 == 0) {
-		return false;
-	}
-
-	for(uint64_t index = 3; index <= sqrt(number); index += 1) {
+	for(uint64_t index = 2; index <= sqrt(number); index += 1) {
 		if(number % index == 0) {
 			return false;
 		}
