@@ -4,7 +4,7 @@ computed = {}
 answer = 1
 
 print("[1,1] = 1")
-for number in range(2,21):
+for number in range(2,2001):
     fromComputed = computed.pop(number, None)
     if fromComputed != None:
         answer *= fromComputed
